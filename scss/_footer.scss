@@ -1,0 +1,44 @@
+.footer {
+    background-color: $grey-dark;
+    padding: 30px;
+    color: #fff;
+    &__logo {
+        margin-bottom: 10px;
+        img {
+            width: 150px;
+        }
+        
+    }
+    &__navigation a {
+        color: #fff;
+        line-height: 1.5;
+        .fa-solid {
+            margin-right: 10px;
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .footer {
+        &__logo {
+            width: 600px;
+        }
+        &__navigation ul {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+@media screen and (min-width: 992px) {
+    .footer {
+        &__wrapper {
+            max-width: 1420px;
+            margin: 0 auto;
+        }
+        &__logo {
+            width: 800px;
+        }
+        &__navigation ul {
+            font-size: 20px;
+        }
+    }
+}

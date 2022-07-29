@@ -1,0 +1,18 @@
+.main {
+    &__form {
+        min-width: 375px;
+        display: flex;
+        justify-content: center;        
+        background: linear-gradient(#aaa 1%, #e9e9e9 30%);      
+        em {            
+            font-size: 20px;
+            padding: 15px;
+            margin-left: 100px;
+        }
+        .placeholder {
+            color: #000;
+            background-color: transparent;
+            border: transparent;
+        }
+    }
+}

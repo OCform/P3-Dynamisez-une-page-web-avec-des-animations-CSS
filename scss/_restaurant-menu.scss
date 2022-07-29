@@ -1,0 +1,182 @@
+.main {
+    .restaurant {
+        &__card {
+            
+        }
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+            background-color: $grey-light;
+            margin-top: -50px; 
+            z-index: 1;  
+            img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                z-index: -1;
+            }         
+        }
+        &__title {
+            bottom: 20px;
+        }
+    }
+}            
+            /*
+                <article class="restaurant__card">                                
+                    <div class="restaurant__picture">
+                        <img src="../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Photo du restaurant la palette du goût">
+                    </div>
+                    <div class="restaurant__container">
+                        <div class="restaurant__title">
+                            <h1>La palette du goût</h1>                                        
+                        </div>
+                        <div class="restaurant__heart">
+                            <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                            <i class="fa-solid fa-heart" aria-hidden="true"></i>                                    
+                        </div>
+                    </div>                                
+                </article>
+            </section>
+            <div class="menu">                       
+                <section class="menu__entrees">
+                    <div class="menu__title">
+                        <h2>Entrées</h2>
+                        <hr>
+                    </div>
+                    <div class="menu__btn">
+                        <a href="#">
+                            <div class="wrapper-text">
+                                <div class="text">
+                                    <span class="weight">Fricassée d'escargot</span><br>
+                                    <span>Au piment d'Espelette</span>
+                                </div>
+                                <div class="price weight"><span>25€</span></div>
+                            </div>
+                            <div class="menu__green-btn">
+                                <em class="fa-solid fa-circle-check"></em>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="wrapper-text">
+                                <div class="text">
+                                    <span class="weight">Foie gras de canard mi-cuit</span><br>
+                                    <span>Et ses copeaux de truffe noire</span>
+                                </div>
+                                <div class="price weight"><span>35€</span></div>                            
+                                <div class="menu__green-btn">
+                                    <em class="fa-solid fa-circle-check"></em>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="wrapper-text">
+                                <div class="text">
+                                    <span class="weight">Oeuf au plat</span><br>
+                                    <span>Assaisonné à la truffe sur lit de caviar</span>
+                                </div>
+                                <div class="price weight"><span>20€</span></div>                            
+                                <div class="menu__green-btn">
+                                    <em class="fa-solid fa-circle-check"></em>
+                                </div>
+                            </div>
+                        </a>
+                    </div>                
+                </section>
+                <section class="menu__plats">
+                    <div class="menu__title">
+                        <h2>Plats</h2>
+                        <hr>
+                    </div>
+                    <div class="menu__btn">
+                        <a href="#">
+                            <div class="wrapper-text">
+                                <div class="text">
+                                    <span class="weight">Filet de boeuf aux herbes</span><br>
+                                    <span>Accompagné de sa ribambelle de légumes</span>
+                                </div>
+                                <div class="price weight"><span>40€</span></div>                            
+                                <div class="menu__green-btn">
+                                    <em class="fa-solid fa-circle-check"></em>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="wrapper-text">
+                                <div class="text">
+                                    <span class="weight">Parmentier de queue de boeuf</span><br>
+                                    <span>À la truffe noire sur sa purée de panais</span>
+                                </div>
+                                <div class="price weight"><span>35€</span></div>                            
+                                <div class="menu__green-btn">
+                                    <em class="fa-solid fa-circle-check"></em>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="wrapper-text">
+                                <div class="text">
+                                    <span class="weight">Filet de turbot</span><br>
+                                    <span>Aux agrumes</span>
+                                </div>
+                                <div class="price weight"><span>44€</span></div>                            
+                                <div class="menu__green-btn">
+                                    <em class="fa-solid fa-circle-check"></em>
+                                </div>
+                            </div>
+                        </a>
+                    </div>                
+                </section>
+                <section class="menu__desserts">
+                    <div class="menu__title">
+                        <h2>Desserts</h2>
+                        <hr>
+                    </div>
+                    <div class="menu__btn">
+                        <a href="#">
+                            <div class="wrapper-text">
+                                <div class="text">
+                                    <span class="weight">Paris-Brest</span><br>
+                                    <span>Revisité</span>
+                                </div>
+                                <div class="price weight"><span>18€</span></div>                            
+                                <div class="menu__green-btn">
+                                    <em class="fa-solid fa-circle-check"></em>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="wrapper-text">
+                                <div class="text">
+                                    <span class="weight">Macaron au chocolat d'exception</span><br>
+                                    <span>Et glace à la vanille de Madagascar</span>
+                                </div>
+                                <div class="price weight"><span>22€</span></div>                            
+                                <div class="menu__green-btn">
+                                    <em class="fa-solid fa-circle-check"></em>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="wrapper-text">
+                                <div class="text">
+                                    <span class="weight">Mousse au chocolat</span><br>
+                                    <span>Au piment d'Espelette et à la truffe noire</span>
+                                </div>
+                                <div class="price weight"><span>23€</span></div>                            
+                                <div class="menu__green-btn">
+                                    <em class="fa-solid fa-circle-check"></em>
+                                </div>
+                            </div>
+                        </a>
+                    </div>                
+                </section>
+                <div class="main__btn">
+                    <button class="search" type="submit" form="form-search" value="Submit">Commander</button>
+                </div>
+            </div>
+        </div>
+    </main>*/
+            
